@@ -2,11 +2,11 @@
 
 -Clonar repositorio  
 
-git clone git@github.com:Wider90/wpress.git
+git clone git@github.com:Wider90/poyectoF.git
 
 -Una vez que se haya clonado el repositorio
 
-cd wpress
+cd proyectoF
 
 -Para correr el contenedor
 
