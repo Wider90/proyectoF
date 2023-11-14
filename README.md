@@ -2,7 +2,7 @@
 
 -Clonar repositorio  
 
-git clone git@github.com:Wider90/poyectoF.git
+git clone https://github.com/Wider90/proyectoF.git
 
 -Una vez que se haya clonado el repositorio
 
