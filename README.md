@@ -1,6 +1,6 @@
-# Instalar WordPresss y Configurar Pluggins
+# Instalar MOODLE y creacion de un curso
 
-## WordPress y dependencias
+## Moodle
 - Instalación con docker-compose 
 
 ## Usuarios y Contraseñas que se deben cambiar en el archivo docker-compose.yml
@@ -11,11 +11,11 @@
 ### Correr localmente usando docker
 
 1. Clonar el repositorio al directorio local de instalación
-git clone https://github.com/rcaceres1966/wpress.git
+git clone https://github.com/Wider90/proyectoF.git
 
 2. Para correr los contenedores
 
-$cd wpress
+$cd proyectoF
 
 $docker compose up
 
@@ -24,16 +24,12 @@ $docker compose up
 $docker compose down
 
 
-# Paso 1) Correr WordPress y Configurar
+# Paso 1) Correr MOODLE 
 
 - http://localhost:8000/
-- Configure Site Title e.g. WCMX
-- Username e.g. admin
-- Password e.g. 123456 
-- Confirm Password checked
-- Press Install Button
+- 
 
-![WordPress-Screen01](imgs/01WP_Install.png)
+![WordPress-Screen01](imgs/Screenshot 2023-11-03 220833.png)
 
 # Paso 2)Login WordPresss 
 
