@@ -29,7 +29,7 @@ $docker compose down
 - http://localhost:8000/
 - 
 
-![WordPress-Screen01](imgs/Screenshot 2023-11-03 220833.png)
+![Captura1](imgs/Captura1.png)
 
 # Paso 2)Login WordPresss 
 
