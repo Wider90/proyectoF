@@ -65,7 +65,7 @@ $docker compose down
 
 - Lo primero sera entrar a nuestro curso
 
-![Captura8](imgs/Captura8)
+![Captura8](imgs/Captura8.png)
   
 - Vamos ir al menu particpantes
 
@@ -73,8 +73,8 @@ $docker compose down
 
 - Ahora vamos a dar click en el botón enrol users
 
-![Captura10](imgs/Captura10)
+![Captura10](imgs/Captura10.png)
 
 -Agregamos a los usuarios y clickeamos enrol users y podremos ver como fueron agregados los participantes.
 
-![Captura11](imgs/Captura11)
+![Captura11](imgs/Captura11.png)
