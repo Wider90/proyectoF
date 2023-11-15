@@ -31,110 +31,50 @@ $docker compose down
 
 ![Captura1](imgs/Captura1.png)
 
-# Paso 2)Login WordPresss 
+# Paso 2)Login 
 
-- Press Log In button
+- Presionar el botón de Log In e introducir las credenciales de administradr:
+- Usuario: user
+- Contraseña: bitnami
 
-![WordPress-Screen02](imgs/02WP_Install.png)
+![Captura2](imgs/Captura2.png)
 
-# Paso 3) Login WordPresss con Username y Password
+-Con esto nos debe aparecer la siguiente pantalla
 
-- Login with Username admin
-- Password 123456 
+![Captura3](imgs/Captura3.png)
 
-![WordPress-Screen03](imgs/03WP_Install.png)
+# Paso 3) Creación de un curso
 
-# Paso 4) Seleccionar Menu Pluggins
+- Para la creación de un curso necesitamos dirigirnos al menú site administration.
 
-- Select Option Pluggins
+![Captura4](imgs/Captura4.png)
 
-![WordPress-Screen04](imgs/04WP_DeletePluggins.png)
+- Posteriormente ir al submenu Courses y dar click en Add a new course
 
-# Paso 5) Agregar Pluggins
+![Captura5](imgs/Captura5.png)
 
-- Add Pluggin Guttentor 
-- Select Guttentor pluggin and press Install Now
+-Se nos va a desplegar un formulario que lo llenaremos con la información de nuestro curso
 
-![WordPress-Screen05](imgs/05WP_AddPluggins.png)
+![Captura6](imgs/Captura6.png)
 
-# Paso 6) Agregar Pluggins
+-Por ultimo vamos clickear el botón desplegar e iremos al menú "Mis cursos"
 
-- Add Pluggin Classic Editor
-- Select Button Activate
+![Captura7](imgs/Captura7.png)
 
-![WordPress-Screen06](imgs/06WP_AddPluggins.png)
+# Paso 4) Inscribirnos al curso
 
-# Paso 6) Agregar Pluggins
+- Lo primero sera entrar a nuestro curso
 
-- Add Pluggin Addons for Gutenberg
-- Select Instal Now
-- Select Button Activate
+![Captura8](imgs/Captura8)
+  
+- Vamos ir al menu particpantes
 
-![WordPress-Screen07_2](imgs/07_2WP_AddPluggins.png)
+![Captura9](imgs/Captura9.png)
 
+- Ahora vamos a dar click en el botón enrol users
 
-# Paso 7) Configurar Block editor
+![Captura10](imgs/Captura10)
 
-- Select Settings
-- Choose Block editor
-- Button Save Changes
+-Agregamos a los usuarios y clickeamos enrol users y podremos ver como fueron agregados los participantes.
 
-![WordPress-Screen07_3](imgs/07_3WP_AddPluggins.png)
-
-# Paso 8) Agregar un Tema
-
-- Select Appereance Menu
-- Choose Add New Theme
-- Search Ample Bussiness Epic
-- Add Theme
-
-![WordPress-Screen07](imgs/07WP_AddPluggins.png)
-
-# Paso 8) Importar una Pagina
-
-- Menu Tools
-- Select Upload file and import
-- Choose wcmx.WordPress.2020-08-10.xml file
-
-
-![WordPress-Screen08](imgs/08Import.png)
-
-# Paso 9) Editar un Post
-
-- Esto importa el ejemplo pero no la media (imagenes)
-
-![WordPress-Screen09](imgs/09Import.png)
-
-
-# Paso 10) Editar Post
-
-- Select Posts Menu
-- Select Test 2 Post
-
-![WordPress-Screen10](imgs/10EditPosts.png)
-
-
-# Paso 11) Agregar Media a Post 2
-
-- Select Post and Button Edit Image
-![WordPress-Screen11](imgs/11WP_AddPhotos.png)
-
-- Upload images carrusel01-1.jpg carrusel02.jpg carrusel03.jpg
-![WordPress-Screen12](imgs/12WP_AddPhotos.png)
-
-- Select image for other post
-![WordPress-Screen13](imgs/13WP_AddPhotos.png)
-
-#Instrucciones para levantar un sistema LMS 
-
--Clonar repositorio  
-
-git clone https://github.com/Wider90/proyectoF.git
-
--Una vez que se haya clonado el repositorio
-
-cd proyectoF
-
--Para correr el contenedor
-
-docker compose up
+![Captura11](imgs/Captura11)
