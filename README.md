@@ -4,8 +4,11 @@
 - Instalación con docker-compose 
 
 ## Usuarios y Contraseñas que se deben cambiar en el archivo docker-compose.yml
-- MYSQL_ROOT_PASSWORD: password
-- MYSQL_PASSWORD: wordpress
+- ALLOW_EMPTY_PASSWORD: YES
+- MARIADB_PASSWORD: password
+- MOODLE_DATABASE_PASSWORD: password
+- MOODLE_USERNAME: user
+- MOODLE_PASSWORD: bitnami
 
 
 ### Correr localmente usando docker
@@ -27,7 +30,7 @@ $docker compose down
 # Paso 1) Correr MOODLE 
 
 - http://localhost:8000/
-- 
+
 
 ![Captura1](imgs/Captura1.png)
 
