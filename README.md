@@ -1,3 +1,30 @@
+# Responder las preguntas a cerca de la Mac
+
+![Img](imgs/imagenEx0.jpeg)
+
+## 1.- ¿Qué modelo de Mac?
+MAC PRO 2019
+## 2.-¿Cuánta memoria RAM tiene?
+96GB  2666MHz DDR4
+## 3.- ¿Qué procesador tiene?
+3.5 GHz Intel Xeon W
+## 4.- ¿Cuántos núcleos tiene?
+8 nucleos
+## 5.- ¿Cuántos hilos de ejecución tiene?
+16 hilos
+## 6.- ¿Qué tarjeta(s) de video tiene?
+AMD Radeon Pro W5500X 8GB
+
+# Descargar la imagen del moodle que se encuentra en el docker compose:
+
+![Img](imgs/imagenEx3.jpeg)
+
+## Posteriormente vamos a revisar el documento y una vez que todo se encuentre en orden vamos a usar el comando docker compose up -d
+
+![Img](imgs/imagenEx2.jpeg)
+
+## Una vez que el contenedor termine de levantarse usaremos el comando docker ps para revisar que se encuentre activo y enq ue puerto se encuentra este. Ya con esta información podremos abrir la pagina en nuestor navegador.
+
 # Instalar MOODLE y creacion de un curso
 
 ## Moodle
@@ -27,14 +54,14 @@ $docker compose up
 $docker compose down
 
 
-# Paso 1) Correr MOODLE 
+### Paso 1) Correr MOODLE 
 
 - http://localhost:8000/
 
 
 ![Captura1](imgs/Captura1.png)
 
-# Paso 2)Login 
+### Paso 2)Login 
 
 - Presionar el botón de Log In e introducir las credenciales de administradr:
 - Usuario: user
@@ -46,7 +73,7 @@ $docker compose down
 
 ![Captura3](imgs/Captura3.png)
 
-# Paso 3) Creación de un curso
+### Paso 3) Creación de un curso
 
 - Para la creación de un curso necesitamos dirigirnos al menú site administration.
 
@@ -64,7 +91,7 @@ $docker compose down
 
 ![Captura7](imgs/Captura7.png)
 
-# Paso 4) Inscribirnos al curso
+### Paso 4) Inscribirnos al curso
 
 - Lo primero sera entrar a nuestro curso
 
